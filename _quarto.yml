@@ -19,7 +19,7 @@ website:
         href: "https://github.com/lucastoshioito/tutorial_ggplot2"
         aria-label: GitHub repository
   page-footer:
-    left: "Lucas Toshio Ito"
+    left: "[Lucas Toshio Ito](https://lucastoshioito.github.io/)"
     right: "Built with Quarto"
 
 format:

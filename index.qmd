@@ -3,6 +3,7 @@ title: "Practical Data Visualization with ggplot2"
 subtitle: "From basic charts to interactive graphics"
 author:
   - name: Lucas Toshio Ito
+    url: https://lucastoshioito.github.io/
     orcid: 0000-0001-9713-8687
     email: lucas.toshio.ito@gmail.com
     affiliations:
