@@ -38,6 +38,7 @@ jobs:
             any::RColorBrewer
             any::readxl
             any::scales
+            any::showtext
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
