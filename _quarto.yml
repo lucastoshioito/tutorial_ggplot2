@@ -5,39 +5,41 @@ project:
 website:
   title: "Graphics with ggplot2"
   site-url: "https://lucastoshioito.github.io/tutorial_ggplot2/"
+  description: "A practical introduction to ggplot2 and a growing collection of reusable figures."
   repo-url: "https://github.com/lucastoshioito/tutorial_ggplot2"
   favicon: favicon.svg
+  search: true
+  repo-actions: [source, issue]
   navbar:
-    logo: favicon.svg
-    logo-alt: "LI"
     left:
       - href: index.qmd
         text: Tutorial
-      - href: plots/index.qmd
-        text: Plot notes
     right:
       - icon: github
         href: "https://github.com/lucastoshioito/tutorial_ggplot2"
-        aria-label: GitHub
+        aria-label: GitHub repository
   page-footer:
-    center: "Lucas Toshio Ito"
+    left: "Lucas Toshio Ito"
+    right: "Built with Quarto"
 
 format:
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     toc: true
-    toc-location: right
+    toc-location: left
     toc-title: Contents
+    number-sections: false
+    highlight-style: github
+    code-copy: true
+    code-overflow: wrap
     code-fold: true
     code-tools: true
     code-link: true
     df-print: kable
-    smooth-scroll: true
 
 execute:
   freeze: auto
   warning: false
   message: false
-
