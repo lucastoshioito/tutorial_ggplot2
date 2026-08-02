@@ -1,0 +1,31 @@
+---
+title: "Plot title"
+description: "One sentence describing what this plot is useful for."
+author: "Lucas Toshio Ito"
+date: today
+categories: [ggplot2]
+toc: true
+---
+
+## Purpose
+
+Briefly note when this plot is useful and any choices worth remembering.
+
+## Example
+
+```{r}
+#| label: example-plot
+#| fig-cap: "Describe the figure."
+
+library(ggplot2)
+
+ggplot(mtcars, aes(wt, mpg)) +
+  geom_point() +
+  theme_minimal()
+```
+
+## Notes
+
+- Record any package requirements or reusable options here.
+- Add a hyperlink when the example came from external documentation.
+
